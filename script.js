@@ -36,3 +36,13 @@ function changeColor(event) {
         hexagon.dataset.colorIndex = nextIndex;
     }
 }
+
+for (let i = 0; i < numHegonos; i++){
+    createHexagon();
+}
+
+window.addEventListener('resize'){
+    const currentHexagons = container.querySelectorAll('.hexagons').length;
+    const targeHexagons = Math.ceil((window.innerHeight * window.innerHeight) / (50 * 50));
+    
+}
